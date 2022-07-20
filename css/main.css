@@ -8,14 +8,6 @@
   .contact-wrapper > * {
     padding: 2em; } }
 
-.btn-more {
-  padding: 6px 15px;
-  color: #8C8C8C;
-  border-radius: 20px; }
-  .btn-more:hover {
-    background: #B1B0B0;
-    color: #000 !important; }
-
 .block-btn, .block {
   width: 100%;
   padding: .7em;
@@ -41,6 +33,14 @@ nav div div {
   justify-content: end; }
   nav div div div .colorGris1 {
     color: #8C8C8C !important; }
+
+.btn-more {
+  padding: 6px 15px;
+  color: #8C8C8C;
+  border-radius: 20px; }
+  .btn-more:hover {
+    background: #B1B0B0;
+    color: #000 !important; }
 
 header .w-70 {
   width: 70%; }

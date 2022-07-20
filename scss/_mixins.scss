@@ -1,6 +1,6 @@
 //MIXINS
 
-@mixin background;($backgraund-color, $background-size, $padding){
+@mixin background($backgraund-color, $background-size, $padding){
 	background-color: $bgColor3;
 	background-size: auto;
 	padding: 2em;
@@ -21,4 +21,5 @@
 .block{
 	@extend .block-btn;
 	border-bottom: 1px solid #d63031;
+	
 }
