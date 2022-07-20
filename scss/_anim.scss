@@ -1,0 +1,11 @@
+//ANIMACIONES
+
+@keyframes textAlpha{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+nav{
+    animation-name: textAlpha;
+    animation-duration: 2s;
+}

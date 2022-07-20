@@ -1,0 +1,22 @@
+nav{
+	div{
+		div{
+			justify-content: end;
+			div{
+				.colorGris1{
+				color: $fontColor !important;
+				}
+			}
+		}
+	}
+}
+
+.btn-more{
+	padding: 6px 15px;
+	color: $fontColor;
+	border-radius: 20px;
+	&:hover{
+		background:$hovColor;
+		color: $bgColor2 !important;
+	}
+}

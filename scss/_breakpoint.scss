@@ -1,0 +1,14 @@
+//MEDIA
+
+@media(min-width: 700px) {
+    body {
+        padding: 0 0em;
+    }
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+}

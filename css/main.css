@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@media (min-width: 700px) {
+  body {
+    padding: 0 0em; }
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr; }
+  .contact-wrapper > * {
+    padding: 2em; } }
+
+.btn-more {
+  padding: 6px 15px;
+  color: #8C8C8C;
+  border-radius: 20px; }
+  .btn-more:hover {
+    background: #B1B0B0;
+    color: #000 !important; }
+
+.block-btn, .block {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #F5F0F0; }
+
+.block {
+  border-bottom: 1px solid #d63031; }
+
+@keyframes textAlpha {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+nav {
+  animation-name: textAlpha;
+  animation-duration: 2s; }
+
+nav div div {
+  justify-content: end; }
+  nav div div div .colorGris1 {
+    color: #8C8C8C !important; }
+
+header .w-70 {
+  width: 70%; }
+
+header .w-30 {
+  width: 30%; }
+
+main {
+  font-family: "Poppins", sans-serif;
+  color: #F5F0F0;
+  line-height: 1.6;
+  padding: 1.5em 1.5em; }
+  main div {
+    background: #181818;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em; }
+    main div h1 {
+      text-align: center;
+      font-size: 3em;
+      padding-bottom: 40px; }
+    main div div form {
+      box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      main div div form p {
+        margin: 0em;
+        padding: 1em; }
+        main div div form p label {
+          color: #F5F0F0; }
+        main div div form p button {
+          background: #B70E21;
+          border: 0;
+          text-transform: uppercase;
+          padding: 1em; }
+          main div div form p button:hover, main div div form p button:focus {
+            background: #d63031;
+            color: #F5F0F0;
+            transition: background-color 1s ease-out;
+            outline: 0; }
+      main div div form div {
+        grid-column: 1 / 3;
+        width: 100%;
+        grid-template-columns: 1fr 1fr; }
+        main div div form div div {
+          background-color: #000 !important; }
+
+.prod-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
+
+.p-size {
+  padding: 2em; }
+
+.T-size {
+  font-size: 2em; }
+
+.bg-color3 {
+  background-color: #181818;
+  background-size: auto;
+  padding: 2em; }
+
+footer nav div ul li {
+  list-style: none; }
+
+footer nav div li {
+  list-style: none; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background-image: url(../img/grass.jpg); }

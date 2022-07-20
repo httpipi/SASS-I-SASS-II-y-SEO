@@ -1,0 +1,20 @@
+//IMPORTS
+@import "_breakpoint";
+@import "_vars";
+@import "_mixins";
+@import "_anim";
+@import "_fonts";
+@import "_navBar";
+@import "_header";
+@import "_main";
+@import "_footer";
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/grass.jpg);
+}

@@ -1,0 +1,81 @@
+//MAIN PAGES SCSS
+
+//HTML INDEX
+main{
+	font-family: $mainFont;
+    color: $blanco;
+    line-height: 1.6;
+	padding: 1.5em 1.5em;
+	div{
+		background: $bgColor3;	
+		max-width: 1170px;
+	    margin-left: auto;
+    	margin-right: auto;
+	    padding: 2em;
+		h1{
+			text-align: center;
+    		font-size: $TextXL;
+    		padding-bottom: 40px;
+		}
+		div{
+
+    			form{
+	    			box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+	    			display: grid;
+    				grid-template-columns: 1fr 1fr;
+	    			p{
+	    				margin: 0em;
+	   					padding: 1em;
+	   					label{
+	   						color: $blanco;
+	   					}
+	   					
+	   					button{
+	   						background: $bgButton;
+						    border: 0;
+						    text-transform: uppercase;
+						    padding: 1em;
+						    &:hover, 
+						    &:focus {
+						    	background: $rojo;
+							    color: $blanco;
+							    transition: background-color 1s ease-out;
+							    outline: 0;
+						    }
+						}
+   					}
+   				div{
+   					grid-column: 1 / 3;
+   					width: 100%;
+   					grid-template-columns: 1fr 1fr;
+			div{
+				background-color: $bgColor2 !important;
+					}
+				}
+			}
+		}
+	}
+}
+//HTML PRODUCOS
+
+.prod-wrapper{
+	box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+//HTML MAYORISTAS
+
+.p-size{
+	padding: 2em;
+}
+
+//HTML ENVIOS
+
+.T-size{
+	font-size: $TextL;
+}
+
+//HTML NOSOTROS
+
+.bg-color3{
+	@include backgraund($bgColor3,auto,2em);
+}
