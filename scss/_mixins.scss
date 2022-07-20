@@ -14,12 +14,10 @@
 	border: none;
 	background: none;
 	outline: 0;
-	color: $blanco;
-	
+	color: $blanco;	
 }
 
 .block{
 	@extend .block-btn;
-	border-bottom: 1px solid #d63031;
-	
+	border-bottom: 1px solid #d63031;	
 }
