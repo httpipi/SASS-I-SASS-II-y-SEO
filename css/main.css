@@ -53,41 +53,35 @@ main {
   color: #F5F0F0;
   line-height: 1.6;
   padding: 1.5em 1.5em; }
-  main div {
-    background: #181818;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2em; }
-    main div h1 {
-      text-align: center;
-      font-size: 3em;
-      padding-bottom: 40px; }
-    main div div form {
-      box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
-      display: grid;
-      grid-template-columns: 1fr 1fr; }
-      main div div form p {
-        margin: 0em;
+  main div h1 {
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 40px; }
+  main div div form {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    main div div form p {
+      margin: 0em;
+      padding: 1em; }
+      main div div form p label {
+        color: #F5F0F0; }
+      main div div form p button {
+        background: #B70E21;
+        border: 0;
+        text-transform: uppercase;
         padding: 1em; }
-        main div div form p label {
-          color: #F5F0F0; }
-        main div div form p button {
-          background: #B70E21;
-          border: 0;
-          text-transform: uppercase;
-          padding: 1em; }
-          main div div form p button:hover, main div div form p button:focus {
-            background: #d63031;
-            color: #F5F0F0;
-            transition: background-color 1s ease-out;
-            outline: 0; }
-      main div div form div {
-        grid-column: 1 / 3;
-        width: 100%;
-        grid-template-columns: 1fr 1fr; }
-        main div div form div div {
-          background-color: #000 !important; }
+        main div div form p button:hover, main div div form p button:focus {
+          background: #d63031;
+          color: #F5F0F0;
+          transition: background-color 1s ease-out;
+          outline: 0; }
+    main div div form div {
+      grid-column: 1 / 3;
+      width: 100%;
+      grid-template-columns: 1fr 1fr; }
+      main div div form div div {
+        background-color: #000 !important; }
 
 .prod-wrapper {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
@@ -104,6 +98,7 @@ main {
 .bg-color3 {
   background-color: #181818;
   background-size: auto;
+  border-radius: 20px;
   padding: 2em; }
 
 footer nav div ul li {

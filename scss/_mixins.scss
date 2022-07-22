@@ -3,6 +3,7 @@
 @mixin background($backgraund-color, $background-size, $padding){
 	background-color: $bgColor3;
 	background-size: auto;
+	border-radius: 20px;
 	padding: 2em;
 }
 	
