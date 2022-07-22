@@ -92,10 +92,13 @@ main {
 .prod-wrapper {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
 
+.T-sizeM {
+  font-size: 1.5em; }
+
 .p-size {
   padding: 2em; }
 
-.T-size {
+.T-sizeL {
   font-size: 2em; }
 
 .bg-color3 {
