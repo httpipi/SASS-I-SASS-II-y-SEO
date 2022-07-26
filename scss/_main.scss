@@ -14,7 +14,7 @@ main{
     		padding-bottom: 40px;
 		}
 		div{
-			
+
     			form{
 	    			
 	    			display: grid;
@@ -65,6 +65,10 @@ main{
 }
 
 //HTML MAYORISTAS
+
+.T-sizeS{
+	font-size: $TextS;
+}
 
 .p-size{
 	padding: 2em;
